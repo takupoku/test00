@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <div id ="btn">ボタンだよ</div>
+  <div id ="btn1" >ボタン1だよ</div>
+  <div id ="btn2">ボタン2だよ</div>
+
+  <script type="text/javascript">
+
+
+
+  // これを用いることで場所を特定することができる。
+  var btn = document.getElementById('btn');
+  var btn1 = document.getElementById('btn1');
+  var btn2 = document.getElementById('btn2');
+
+
+    btn.addEventListener('click', function(){
+      btn.innerHTML = 'うめこみました';
+    });
+
+    btn1.addEventListener('click', function(){
+      btn1.innerHTML = '<h1>VR彼女</h1>';
+    });
+
+    btn2.addEventListener('click',function(){
+      btn2.innerHTML = '<img src="https://pbs.twimg.com/media/Cv2usvoUEAMq1bw.jpg" alt=""/>;'
+    });
+
+
+  </script>
+</body>
+</html>
